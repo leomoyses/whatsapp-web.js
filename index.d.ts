@@ -331,7 +331,7 @@ declare namespace WAWebJS {
         chatId: string,
         /** ID that represents the groupNotification 
          *  @todo create a more specific type for the id object */
-        id: object,
+        id: MessageId,
         /** Contact IDs for the users that were affected by this GroupNotification */
         recipientIds: string[],
         /** Unix timestamp for when the groupNotification was created */
